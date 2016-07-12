@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/background_material_dark</item>
+        <item name="colorPrimaryDark">@color/bright_foreground_inverse_material_dark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="CustomFonts.TextAppearance.Twitch" parent="TextAppearance.AppCompat">
+        <item name="fontPath">fonts/dimitri.ttf</item>
+    </style>
+
+    <style name="TextDefault" parent="CustomFonts.TextAppearance.Twitch">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="TextDefault.Accent" parent="TextDefault">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+</resources>
